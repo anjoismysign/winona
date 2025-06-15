@@ -1,9 +1,10 @@
-package me.anjoismysign.winona;
+package io.github.anjoismysign.winona;
+
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.Map;
 import java.util.Objects;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 public interface AttributeContainer {
   @NotNull

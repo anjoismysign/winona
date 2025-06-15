@@ -1,7 +1,8 @@
-package me.anjoismysign.winona;
+package io.github.anjoismysign.winona;
+
+import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Consumer;
-import org.jetbrains.annotations.NotNull;
 
 public interface GameItemLoader<R, I> {
   @NotNull

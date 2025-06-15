@@ -1,10 +1,11 @@
-package me.anjoismysign.winona;
+package io.github.anjoismysign.winona;
+
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 public interface Archive<T> {
   @Nullable

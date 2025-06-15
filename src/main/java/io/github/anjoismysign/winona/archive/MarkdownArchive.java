@@ -1,4 +1,8 @@
-package me.anjoismysign.winona.archive;
+package io.github.anjoismysign.winona.archive;
+
+import io.github.anjoismysign.winona.Archive;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -6,9 +10,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import me.anjoismysign.winona.Archive;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 public record MarkdownArchive(@NotNull String content) implements Archive<String> {
   

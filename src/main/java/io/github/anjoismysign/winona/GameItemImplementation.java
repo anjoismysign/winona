@@ -1,9 +1,10 @@
-package me.anjoismysign.winona;
+package io.github.anjoismysign.winona;
+
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.Objects;
 import java.util.Set;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 public interface GameItemImplementation<T extends GameItem, R, I> {
   void registerLoader(@NotNull GameItemLoader<R, I> paramGameItemLoader);

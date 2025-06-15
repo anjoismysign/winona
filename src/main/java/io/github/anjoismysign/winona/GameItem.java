@@ -1,4 +1,4 @@
-package me.anjoismysign.winona;
+package io.github.anjoismysign.winona;
 
 public interface GameItem extends Identifiable {
   int getQuantity();
